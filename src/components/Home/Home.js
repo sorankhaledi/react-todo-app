@@ -6,9 +6,6 @@ import Welcome from './components/Welcome';
 const Home = () => {
   return (
     <div className="home">
-      <Link to="/">Home</Link>
-      <Link to="/users">Users</Link>
-      <Link to="/todos">Todos</Link>
       <Routes>
         <Route path='/' element={<Welcome />} />
         <Route path="/users" element={<UsersList />} />
