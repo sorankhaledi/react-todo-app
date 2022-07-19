@@ -17,9 +17,9 @@ const NavbarComponent = () => {
           to="/"
         >Todo App</Navbar.Brand>
         <Nav className="ml-auto">
-          <Nav.Link activeClassName="active" as={NavLink} to="/">Home</Nav.Link>
-          <Nav.Link activeClassName="active" as={NavLink} to="/users">Users</Nav.Link>
-          <Nav.Link activeClassName="active" as={NavLink} to="/todos">Todos</Nav.Link>
+          <Nav.Link activeclassname="active" as={NavLink} to="/">Home</Nav.Link>
+          <Nav.Link activeclassname="active" as={NavLink} to="/users">Users</Nav.Link>
+          <Nav.Link activeclassname="active" as={NavLink} to="/todos">Todos</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
