@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$theme-colors: (
+  "primary": #574aff,
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+:root {
+  --base-color: #ef476f;
+  --base-color: #0d21a1;
+  --base-color: #03cea4;
+  --base-color: #2E66B0;
+  --base-color: #E93E44;
+  --base-color: #F7C296;
+  --base-color: #574aff;
+  /* --base-color: #ff4a4a; */
+  
+  
+  
+  
+
+  
+}
+
+.navbar-expand .navbar-nav .nav-link.active {
+  color: var(--base-color) !important;
+}
